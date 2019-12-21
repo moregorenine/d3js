@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "webpack --watch"
+        "start": "webpack-dev-server --config webpack.dev.js --open",
+        "build": "webpack --config webpack.prod.js"
     },
     "keywords": [],
     "author": "",
@@ -19,6 +20,8 @@
         "sass-loader": "^8.0.0",
         "style-loader": "^1.1.1",
         "webpack": "^4.41.4",
-        "webpack-cli": "^3.3.10"
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1",
+        "webpack-merge": "^4.2.2"
     }
 }
