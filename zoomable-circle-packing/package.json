@@ -13,6 +13,10 @@
         "d3": "^5.14.2"
     },
     "devDependencies": {
+        "css-loader": "^3.4.0",
+        "node-sass": "^4.13.0",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^1.1.1",
         "webpack": "^4.41.4",
         "webpack-cli": "^3.3.10"
     }

@@ -1,3 +1,2 @@
-"use strict";
-console.log("Hello webpack!");
-console.log("Hello webpack!!");
+import "./console/log";
+import "../css/main.scss";
